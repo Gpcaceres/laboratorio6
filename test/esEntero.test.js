@@ -1,4 +1,4 @@
-const esEntero = require('../EsEntero');
+const esEntero = require('../esEntero');
 
 test('esEntero debe retornar true para un entero', () => {
     expect(esEntero(5)).toBe(true);
