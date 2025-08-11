@@ -25,8 +25,8 @@ jobs:
       - name: Lint del código
         run: npm run lint
 
-      - name: Ejecutar pruebas
-        run: npm test
+      - name: Ejecutar pruebas (modo verboso con ubicación)
+        run: npm test -- --ci --verbose --testLocationInResults --bail
 
       - name: Simular despliegue
         run: |
