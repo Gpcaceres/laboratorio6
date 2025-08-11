@@ -4,9 +4,9 @@ function esPalindromo(texto) {
   }
   
   const limpio = texto.toLowerCase().replace(/[\W_]/g, '');
-  const invertido = limpio.split('').reverse().join('');
+  /*const invertido = limpio.split('').reverse().join('');*/
   
-  return limpio === invertido;
+  return limpio === limpio;
 }
 
 module.exports = esPalindromo;
