@@ -1,5 +1,5 @@
 function esEntero(valor) {
-  return false;
+  return Number.isInteger(valor); //Corrección de la función para verificar si el valor es un entero
 }
 
 module.exports = esEntero;
