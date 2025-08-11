@@ -1,5 +1,5 @@
 function esEntero(valor) {
-  return Number.isInteger(valor);
+  return false;
 }
 
 module.exports = esEntero;
